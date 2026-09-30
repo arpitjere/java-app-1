@@ -1,0 +1,8 @@
+name: Java Application
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: arpitjere/reusable-workflows-demo/.github/workflows/java-build.yml@v1.0.0
